@@ -97,7 +97,7 @@ fun ejercicioLabo(){
                 itemsIndexed(lista){ index, nombre ->
 
                     Row(
-                        modifier = Modifier.fillMaxWidth().padding(10.dp),
+                        modifier = Modifier.fillMaxWidth().padding(horizontal=30.dp, vertical=5.dp),
                         horizontalArrangement = Arrangement.SpaceBetween
                     ) {
                         Text(
